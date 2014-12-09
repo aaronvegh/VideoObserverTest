@@ -14,6 +14,7 @@
 		934A97451A37745A00326E97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934A97441A37745A00326E97 /* Images.xcassets */; };
 		934A97481A37745A00326E97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 934A97461A37745A00326E97 /* LaunchScreen.xib */; };
 		934A97541A37745A00326E97 /* VideoObserverTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 934A97531A37745A00326E97 /* VideoObserverTestTests.m */; };
+		934A975F1A377DFB00326E97 /* VideoObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 934A975E1A377DFB00326E97 /* VideoObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		934A974D1A37745A00326E97 /* VideoObserverTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoObserverTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		934A97521A37745A00326E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		934A97531A37745A00326E97 /* VideoObserverTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoObserverTestTests.m; sourceTree = "<group>"; };
+		934A975D1A377DFB00326E97 /* VideoObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoObserver.h; sourceTree = "<group>"; };
+		934A975E1A377DFB00326E97 /* VideoObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoObserver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				934A97441A37745A00326E97 /* Images.xcassets */,
 				934A97461A37745A00326E97 /* LaunchScreen.xib */,
 				934A97371A37745A00326E97 /* Supporting Files */,
+				934A975D1A377DFB00326E97 /* VideoObserver.h */,
+				934A975E1A377DFB00326E97 /* VideoObserver.m */,
 			);
 			path = VideoObserverTest;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				934A97401A37745A00326E97 /* ViewController.m in Sources */,
+				934A975F1A377DFB00326E97 /* VideoObserver.m in Sources */,
 				934A973D1A37745A00326E97 /* AppDelegate.m in Sources */,
 				934A973A1A37745A00326E97 /* main.m in Sources */,
 			);
